@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.form{ background-color:white;
+    border-color:black;
+    border-width:2px;
+    border-style:solid;
+    padding:40px;
+     margin:15px;
+     text-align:center;
+     width:300px;
+     height:300px;
+     position:absolute;
+     top:200px;
+     left:480px;
+     font-style:italic;
+     border-radius:30px;
+     font-size:20px;
+     }
+body{background-image:url("2.jpg");
+    background-size:cover;
+     background-repeat:no-repeat;}
+.dropbtn {
+    background-color:#00ccff;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-style:italic;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+   color:#248f24;
+    min-width: 160px;
+    font-style:italic;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color:#00ccff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #00ccff;
+}
+
+</style>
+<head>
+<body>
+<div class="form">
+<form action="" method="post">
+<h3>Utility Billing</h3>
+Username:<input type="textbox" maxlength="15" name="username" placeholder="Username"><br/><br/>
+Password:<input type="textbox" maxlength="15" name="Password" placeholder="Password"><br/><br/>
+<div class="dropdown">
+  <button class="dropbtn">Select your type of Bill</button>
+  <div class="dropdown-content">
+    <a href="/home/asmita/Desktop/Web tech project/water.html">Water</a>
+    <a href="/home/asmita/Desktop/Web tech project/electricity.html">Electricity</a>
+    <a href="#">Tax</a>
+  </div>
+</div><br/><br/>
+<input type="Submit" value="Login" style="font-style:italic;height:30px;width:100px" ><br/><br/>
+<input type="radio" >Remember my Password
+
+</div>
+</form>
+</body>
+</html>
+
